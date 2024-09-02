@@ -1,0 +1,5 @@
+plugin/app-0.1.0.umd.min.js
+plugin/app-0.1.0.umd.min.js.map
+plugin/app-0.1.0.umd.min.machine-config.js
+plugin/app-0.1.0.umd.min.machine-config.js.map
+plugin/package.json

@@ -5,6 +5,9 @@ on:
   release:
     types: [released]
 
+env:
+  REGISTRY: localhost:5000
+
 defaults:
   run:
     shell: bash
@@ -18,7 +21,7 @@ jobs:
       contents: read
       packages: write
     with:
-      registry_target: ghcr.io
+      registry_target: localhost:5000
       registry_user: ${{ github.actor }}
     secrets: 
       registry_token: ${{ secrets.GITHUB_TOKEN }}
