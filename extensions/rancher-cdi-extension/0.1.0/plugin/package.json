@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "rancher-cdi-extension",
   "description": "app plugin",
   "version": "0.1.0",
   "private": false,
@@ -15,5 +15,5 @@
   "files": [
     "**/*"
   ],
-  "main": "app-0.1.0.umd.min.js"
+  "main": "rancher-cdi-extension-0.1.0.umd.min.js"
 }
