@@ -1,6 +1,6 @@
 apiVersion: v1
 entries:
-  app:
+  rancher-cdi-extension:
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
@@ -13,12 +13,12 @@ entries:
       catalog.cattle.io/ui-extensions-version: '>= 2.0.0'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-09-02T14:17:43.133584505+02:00"
+    created: "2024-09-06T09:02:23.975859077+02:00"
     description: app plugin
-    digest: 4df5ac0ba46f9879739c6b6661dba85aec1ae3dc0091c0a9889b6adee978cdcd
-    name: app
+    digest: 76f4cfe913a3a335ab40466787b3f5372871dc536ceb16eab039f12f7dd79322
+    name: rancher-cdi-extension
     type: application
     urls:
-    - assets/app/app-0.1.0.tgz
+    - assets/rancher-cdi-extension/rancher-cdi-extension-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-02T14:17:43.133202508+02:00"
+generated: "2024-09-06T09:02:23.975550125+02:00"
