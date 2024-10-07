@@ -1,6 +1,6 @@
 {
   "name": "rancher-cdi-extension-app",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "private": false,
   "engines": {
     "node": ">=12"

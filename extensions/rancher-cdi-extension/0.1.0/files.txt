@@ -1,5 +1,0 @@
-plugin/package.json
-plugin/rancher-cdi-extension-0.1.0.umd.min.js
-plugin/rancher-cdi-extension-0.1.0.umd.min.js.map
-plugin/rancher-cdi-extension-0.1.0.umd.min.machine-config.js
-plugin/rancher-cdi-extension-0.1.0.umd.min.machine-config.js.map
