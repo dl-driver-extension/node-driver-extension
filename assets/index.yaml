@@ -13,9 +13,9 @@ entries:
       catalog.cattle.io/ui-extensions-version: '>= 2.0.0'
     apiVersion: v2
     appVersion: 0.1.3
-    created: "2024-10-08T08:45:21.373704522Z"
+    created: "2024-10-08T08:48:26.708620309Z"
     description: app plugin
-    digest: 9cadb8b411199550f668a83b7168f23c3421ba6d67cb8cac8c44ef6e6e813aef
+    digest: 1b3ae12a7e4ff4a588baedd7a671051c6bfa2561122564fd730113816debb5c6
     name: rancher-cdi-extension
     type: application
     urls:
@@ -41,4 +41,4 @@ entries:
     urls:
     - assets/rancher-cdi-extension/rancher-cdi-extension-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-08T08:45:21.373017184Z"
+generated: "2024-10-08T08:48:26.707989648Z"
