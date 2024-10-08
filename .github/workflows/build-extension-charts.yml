@@ -115,6 +115,15 @@ jobs:
           git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
 
+      - name: Upload extension to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ./assets/rancher-cdi-extension/${{ github.ref_name }}
+          asset_name: cdi
+          tag: ${{ github.ref }}
+          overwrite: true 
+
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.1
         with:
