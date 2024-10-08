@@ -120,7 +120,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./assets/rancher-cdi-extension/${{ github.ref_name }}.tgz
-          asset_name: cdi
+          asset_name: ${{ github.ref_name }}.tgz
           tag: ${{ github.ref }}
           overwrite: true 
 
