@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <p>poc driver example text</p>
+        <p>cdi driver example text</p>
     </div>
 </template>
 

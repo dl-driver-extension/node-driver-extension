@@ -2,9 +2,9 @@
     "extensions": {
       "cdi": {
         "repo": "dl-driver-extension/node-driver-extension",
-        "branch": "gh-pages",
+        "branch": "main",
         "versions": [
-          "0.1.3"
+          "0.1.0"
         ]
       }
     }

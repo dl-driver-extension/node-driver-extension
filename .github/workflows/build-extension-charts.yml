@@ -8,7 +8,7 @@ on:
 env:
   ACTIONS_RUNNER_DEBUG: false
   CI_COMMIT_MESSAGE: CI Build Artifacts
-  TARGET_BRANCH: gh-pages
+  TARGET_BRANCH: main
 
 defaults:
   run:
